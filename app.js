@@ -35,8 +35,8 @@ function lose(userChoice, computerChoice) {
     result_p.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)} You lost!!`
 }
 
-function draw(userChoice, computerChoice) {
-    
+function draw(userChoice, computerChoice) {    
+    result_p.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)} It's a draw`
 }
 
 // Conditions wins/losses/draws
